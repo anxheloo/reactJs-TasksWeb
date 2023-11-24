@@ -1,0 +1,57 @@
+.main-content {
+  max-width: 30%;
+  min-height: 100vh;
+  background-color: #2a2a2a;
+  padding: 4rem 2rem;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.main-content h2 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.add-project-btn {
+  padding: 0.5rem 1rem;
+  background-color: rgba(55, 59, 55);
+  color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  border-style: none;
+}
+
+.add-project-btn:hover {
+  background-color: rgba(1, 1, 1, 0.3);
+  color: rgba(255, 255, 255);
+}
+
+.project-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 2rem 0px;
+}
+
+.project-button {
+  width: 100%;
+  text-align: left;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #2a2a2a;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 1rem;
+  /* margin: 1rem 0px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.project-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.project-button:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+}
